@@ -1,0 +1,23 @@
+.from{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.from input,button{
+      width: 500px;
+      height: 50px;
+      font: 30px;
+      margin-top: 10px;
+      border: 1px solid #EEE;
+      border-radius: 10px;
+      text-align: center;
+}
+
+.from button{
+  background: crimson;
+  color: antiquewhite;
+  cursor: pointer;
+}

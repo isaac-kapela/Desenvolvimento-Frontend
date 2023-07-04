@@ -1,0 +1,43 @@
+.gestor-wrapper{
+  margin: 20;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.gestor span{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gestor{
+  width: 150px;
+  padding: auto;
+  background-color: rgb(6, 47, 228);
+}
+.subordinandos{
+  margin: 20px;
+  background-color: rgb(20, 228, 47);
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.analistas-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.analistas{
+  text-align: center;
+  margin: 20px;
+  width: 250px;
+  background-color: rgb(2, 236, 80);
+  justify-content: center;
+
+}
+
