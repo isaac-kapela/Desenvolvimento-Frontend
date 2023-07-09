@@ -8,5 +8,5 @@ R: são textos de conexão que detalham informações necessarias para se conect
 R: servidor
 
 4_ Qual framework estamos utiliznado para  desenvolver no lado do servidor?
-R: Spring boot
+R: Spring boot,node
 
