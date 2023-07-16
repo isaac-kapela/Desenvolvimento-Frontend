@@ -1,0 +1,18 @@
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  margin-left: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.menu a:hover{
+  font-size: 32px;
+}
+
