@@ -1,0 +1,28 @@
+.login{
+  max-width: 120px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.login input,button{
+  height: 35px;
+  width: 500px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid #EEE;
+  border-radius: 10px;
+
+
+}
+
+.login button{
+  background-color: antiquewhite;
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.login button:hover{
+  background-color:blanchedalmond;
+}
