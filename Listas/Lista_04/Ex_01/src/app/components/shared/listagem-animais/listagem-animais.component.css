@@ -1,0 +1,14 @@
+.listaDeAnimais{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animal{
+  margin: 5px;
+  border: solid burlywood 2px;
+  padding: 7px;
+  background-color: beige;
+  border-radius: 5%;
+}
+
+
