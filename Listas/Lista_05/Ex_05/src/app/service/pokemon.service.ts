@@ -12,11 +12,11 @@ export class PokemonService{
   constructor(private http: HttpClient){ }
 
   public getPokemons() : Observable<any>{
-    return this.http.get<any>("https://pokeapi.co/api/v2/pokemon");
+    return this.http.get<any>('https://pokeapi.co/api/v2/pokemon');
   }
 
   public getInfoPokemon(name: string) : Observable<any> {
-    return this.http.get<any>('https://pokeapi.co/api/v2/pokemon/${name}');
+    return this.http.get<any>(`https://pokeapi.co/api/v2/pokemon/${name}`);
   }
 
 }
