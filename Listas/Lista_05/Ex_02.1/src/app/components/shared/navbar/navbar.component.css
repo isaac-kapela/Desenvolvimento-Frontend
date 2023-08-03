@@ -1,0 +1,27 @@
+.menu{
+  justify-content: space-around;
+  display: flex;
+  margin: 20px;
+}
+
+.menu a {
+  width: 300px;
+  height: 45px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+.menu a:hover{
+  background: #888;
+  font-size: 30px;
+  color: rgb(from rgb(27, 27, 134) r g b);
+  transition: 0.10s ease-in-out;
+}
+
+
