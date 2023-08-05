@@ -1,9 +1,9 @@
-<div class="maini">
+<div class="main">
 
-<div class="app-listagem-animais" *ngFor="let animal of animais">
-  <p>{{animal.nome}}</p>
-  <p>{{animal.raca}}</p>
-  <p>{{animal.peso}}</p>
+  {{ dateNow }}
+  <div class="listagem-animais" *ngFor="let animal of animais">
+    <p>{{ animal.nome }}</p>
+    <p>{{ animal.raca }}</p>
+    <p>{{ animal.peso }}</p>
+  </div>
 </div>
-</div>
-

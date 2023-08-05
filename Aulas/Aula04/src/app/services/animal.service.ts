@@ -1,19 +1,20 @@
+import { Animal } from 'src/app/models/animal';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-import { Animal } from '../models/animal';
-
-
+import { Injectable } from "@angular/core";
 
 @Injectable({
-  providedIn:'root'
+  providedIn: 'root'
 })
-export class AnimalService{
-  constructor(private http:HttpClient){}
+export class AnimalService {
 
-  public getAnimais() : Observable<Animal[]>{
-    return this.http.get<Animal[]>("http://localhost:8050/listar-animais");
+  constructor(private http: HttpClient) {  }
+
+  public getAnimais() : Observable<Animal[]> {
+    return this.http.get<Animal[]>("https://pokeapi.co/api/v2/pokemon");
   }
 
+  public adicionarAnimal(animal: Animal): Observable<string> {
+    return this.http.post<string>("http://localhost:8050/adicionar-animal", animal);
+  }
 }
-
