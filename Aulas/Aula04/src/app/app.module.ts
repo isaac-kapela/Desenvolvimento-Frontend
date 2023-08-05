@@ -8,6 +8,8 @@ import { AdicionarAnimalComponent } from './components/views/animal/adicionar-an
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/views/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { ListagemPokemonsComponent } from './components/listagem-pokemons/listagem-pokemons.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { HttpClientModule } from '@angular/common/http';
     ListagemAnimaisComponent,
     AdicionarAnimalComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    ListagemPokemonsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

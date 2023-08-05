@@ -1,20 +1,19 @@
-.Menu{
+.menu {
   display: flex;
   justify-content: space-around;
 }
 
-
-.Menu a{
+.menu a {
+  margin-top: 10px;
   width: 300px;
-  height: 40px;
-  background-color: aqua;
-  color: aliceblue;
+  height: 50px;
+  color: #FFF;
+  background-color: #4a588c;
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
   font-size: 30px;
   text-decoration: none;
   border-radius: 50px;
 }
-
 
