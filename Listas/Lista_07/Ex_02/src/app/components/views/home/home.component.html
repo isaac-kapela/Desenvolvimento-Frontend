@@ -1,0 +1,15 @@
+<h1 class="pokemon">
+  Pokemons
+  <div class="Pokemons">
+    <div class="main">
+      <div *ngFor="let pokemon of pokemons" class="pokemons">
+        <img [src]="pokemon.sprites.front_default">
+        <p>{{ pokemon.id }}</p>
+        <p>{{ pokemon.name }}</p>
+      </div>
+    </div>
+  </div>
+</h1>
+
+
+
