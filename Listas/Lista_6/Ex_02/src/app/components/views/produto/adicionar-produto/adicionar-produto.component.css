@@ -1,0 +1,41 @@
+.adicionar-produto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 450px;
+     margin-left: 450px;
+
+    background-color: rgba(21, 255, 0, 0.462);
+    border: 3px solid rgb(0, 255, 242);
+    color:rgb(55, 180, 199);
+    margin-top: 90px;
+    border-radius: 10px;
+  }
+  .adicionar-produto p {
+    font-size: 30px;
+    color: rgb(184, 161, 161);
+
+  }
+  .adicionar-produto input, button {
+    border-radius: 10px;
+    height: 35px;
+    width: 450px;
+    margin-top: 10px;
+    border: 2px solid rgb(191, 158, 240);
+
+  }
+  .adicionar-produto button{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(102, 0, 255);
+    margin-right: 50px;
+    font-size: 15px;
+    color: rgb(143, 3, 136);
+    transition: 0.3s;
+  }
+  .adicionar-produto button:hover{
+    font-size: 20px;
+    color: rgb(156, 144, 144);
+
+  }
