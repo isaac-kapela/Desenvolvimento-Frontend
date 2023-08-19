@@ -2,6 +2,7 @@ a {
     font-size: 30px;
     display: flex;
     justify-content: center;
-    color: blue;
+    color: rgb(83, 83, 202);
+    background-color: rgb(225, 235, 241);
     font-family: 'Times New Roman', Times, serif;
 }

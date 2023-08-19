@@ -10,18 +10,21 @@ import { ProdutoService } from 'src/app/service/produto.service';
 })
 export class AdicionarProdutoComponent {
   public nome!: string;
+  public img!: string;
+  public preco!: number;
   public descricao!: string;
-  public imagem!: string;
-  public categoria!: string;
-  public valor!: number;
+
+
 
   constructor(private produtoService: ProdutoService, private router: Router) {}
 
   public adicionarProduto() {
-    let produto = new Produto(this.nome, this.descricao, this.imagem, this.categoria, this.valor);
-    this.produtoService.AdicionarProduto(produto).subscribe((response) => {
-      console.log(response);
+    let produto = new Produto(this.nome, this.img, this.preco, this.descricao);
+    this.produtoService.AdicionarProduto(produto).subscribe((res: any) => {
+      console.log(res);
     });
     this.router.navigate(["/"])
   }
+
+  
 }
