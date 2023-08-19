@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 
+import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/views/home/home.component';
@@ -9,6 +8,8 @@ import { ListagemProdutoComponent } from './components/views/produto/listagem-pr
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { SubMenuComponent } from './components/shared/sub-menu/sub-menu.component';
 import { HttpClientModule } from '@angular/common/http';
+
+import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({

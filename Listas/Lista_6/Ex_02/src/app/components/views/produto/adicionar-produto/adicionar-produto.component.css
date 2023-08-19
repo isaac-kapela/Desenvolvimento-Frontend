@@ -5,8 +5,8 @@
     margin-right: 450px;
      margin-left: 450px;
 
-    background-color: rgba(21, 255, 0, 0.462);
-    border: 3px solid rgb(0, 255, 242);
+    background-color: rgba(75, 226, 61, 0.462);
+    border: 3px solid rgb(17, 17, 17);
     color:rgb(55, 180, 199);
     margin-top: 90px;
     border-radius: 10px;
@@ -18,8 +18,8 @@
   }
   .adicionar-produto input, button {
     border-radius: 10px;
-    height: 35px;
-    width: 450px;
+    height: 33px;
+    width: 420px;
     margin-top: 10px;
     border: 2px solid rgb(191, 158, 240);
 
@@ -28,10 +28,10 @@
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 20px;
-    background-color: rgb(102, 0, 255);
+    background-color: rgb(0, 255, 221);
     margin-right: 50px;
     font-size: 15px;
-    color: rgb(143, 3, 136);
+    color: rgb(56, 46, 56);
     transition: 0.3s;
   }
   .adicionar-produto button:hover{
