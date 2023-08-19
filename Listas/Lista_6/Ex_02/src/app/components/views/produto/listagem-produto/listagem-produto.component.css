@@ -16,12 +16,12 @@
     box-shadow:40px 40px 40px -31px rgba(0,0,0,0.84)
 }
 .produtos img {
-    background-color: white;
+    background-color: rgb(248, 197, 197);
     width: 200px;
-    border: 3px solid rgb(102, 0, 255);
+    border: 3px solid rgb(55, 0, 255);
     border-radius: 10px;
     margin: 20px;
-    
+
 }
 .descricao {
     margin-right: 10px;
@@ -34,33 +34,35 @@
 }
 .produtos h1{
     text-align: center;
-    margin:5px;
     margin-bottom: 20px;
-    font-size: 20px;
+    margin:5px;
     justify-content: center;
-    color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
 }
 .produtos h2{
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-right: 5px;
-    margin-left: 5px;
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .produtos button{
+  border-radius: 5px;
     width: 100px;
-    border-radius: 5px;
-    border: 1px solid rgb(102, 0, 255);
-    background-color: rgb(102, 0, 255);
-    color: white;
     margin-right: 7px;
     margin-left: 7px;
     margin-bottom: 10px;
+    border: 1px solid rgb(142, 89, 221);
+    background-color: rgb(154, 104, 230);
+    color: rgb(219, 203, 203);
     cursor: pointer;
     transition: 0.3s;
 }
 .produtos button:hover{
+  font-size: 20px;
     width: 120px;
-    font-size: 20px;
+    
 }

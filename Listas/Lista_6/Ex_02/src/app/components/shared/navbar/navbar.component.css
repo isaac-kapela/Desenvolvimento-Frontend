@@ -1,18 +1,18 @@
 ul {
     display: flex;
     flex-direction: row;
-    background-color: rgb(102, 0, 255);
+    background-color: rgb(6, 140, 230);
     display: flex;
     justify-content: center;
   }
   a {
     font-size: 40px;
-    margin-left: 90px;
+    color: rgb(255, 255, 255);
     margin-right: 90px;
     margin-top: 15px;
+    margin-left: 90px;
     margin-bottom: 15px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
   }
