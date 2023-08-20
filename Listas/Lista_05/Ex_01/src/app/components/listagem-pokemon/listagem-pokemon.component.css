@@ -1,30 +1,34 @@
 .pokemon{
-  text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: center;
+  color: rgb(186, 250, 10);
   font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: burlywood;
+  font-family:Georgia, 'Times New Roman', Times, serif
+
 }
 
 .main{
-  flex-wrap: wrap;
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
+
+
 }
 
 .pokemons{
   padding: 5px;
   margin: 10px;
-  width: 200px;
+
   border: solid black 5px;
+  width: 200px;
   height: 200px;
   text-align: center;
   background-size: 300px;
-  border-radius: 100%;
   font-size: 15px;
   font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .img{
