@@ -18,6 +18,11 @@ app.get("/listar-pagamentos", async (rq, res) => {
 
 app.post("/cadastrar-pagamento", async (req, res) => {
   let pagamento = { ...req.body }
+  let pagamentoValido = pagamento.tipoPagamento.toLowerCae()!= "C" || pagamento.tipoPagamento.toLowerCae() != "D"
+
+  if(pagamentoValido){
+    return res.status(400).json('Pagamento Invalido')
+  }
 
   try {
     await pagamento.create(pagamento)
@@ -27,8 +32,7 @@ app.post("/cadastrar-pagamento", async (req, res) => {
   }
 });
 
-mongoose
-  .connect(connectionString, {
+mongoose.connect(connectionString, {
     dbName: "DevKapex",
   })
   .then(() => {
