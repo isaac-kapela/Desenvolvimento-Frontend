@@ -4,8 +4,29 @@ const app = express();
 const port = 8050;
 const connectionString ="mongodb+srv://admin:admin123@appdatabase.ry0gm2w.mongodb.net/";
 const pagamento = require("./models/pagamento");
+const pagamento = require("./models/pagamento");
+const pagamento = require("./models/pagamento");
 
 app.use(express.json())
+
+app.get("/listar-saldo-consolidado", async(req, res) => {
+  
+  try {
+    
+      let dataReferencia = req.query.dataReferencia
+      let pagamentos = await pagamento.find({dataPagamento: dataReferencia});
+      let saldoConsolidadoDoDia = 0
+
+      for(let pagamento of pagamentos){
+        saldoConsolidadoDoDia += pagamento.valorPagamento
+      }
+
+      return res.status(200).json({ pagamento, saldoConsolidadoDoDia})
+  } catch (error) {
+      return res.status(500).json(error)
+
+  }
+})
 
 app.get("/listar-pagamentos", async (rq, res) => {
   try {
