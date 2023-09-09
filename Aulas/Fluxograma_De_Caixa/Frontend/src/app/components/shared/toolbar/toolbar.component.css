@@ -1,0 +1,23 @@
+.menus{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.menus a {
+    text-decoration: none;
+    color: rgb(37, 35, 35);
+    margin: 20px;
+    font-size: 18px;
+    transition: .5s ease-in-out;
+
+}
+.menus a:hover{
+    text-decoration:underline;
+    font-size: 20px;
+    
+
+}
