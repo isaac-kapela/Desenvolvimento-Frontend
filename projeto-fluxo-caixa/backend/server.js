@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 const port = 8750
-const connectionString = "mongodb+srv://leticiafrancielle:teste123@appdatabase.sjsbjbi.mongodb.net/"
+const connectionString = "mongodb+srv://admin:admin123@appdatabase.ry0gm2w.mongodb.net"
 const Pagamento = require('./models/pagamento')
 const cors = require('cors')
 
