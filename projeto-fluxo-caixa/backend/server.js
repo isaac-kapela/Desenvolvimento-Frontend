@@ -1,8 +1,13 @@
 const express = require('express')
 const mongoose = require('mongoose')
+require('dotenv').config();
+
 const app = express()
+const db_user = process.env.DB_USER;
+const db_Senha = process.env.DB_SENHA;
+
 const port = 8750
-const connectionString = "mongodb+srv://admin:admin123@appdatabase.ry0gm2w.mongodb.net"
+const connectionString = `mongodb+srv://${db_user}:${db_Senha}@kapela.ydjaj.mongodb.net/?retryWrites=true&w=majority&appName=kapela`;
 const Pagamento = require('./models/pagamento')
 const cors = require('cors')
 
@@ -58,7 +63,7 @@ app.post("/cadastrar-pagamento", async (req, res) => {
 mongoose.connect(connectionString, {
     dbName: "DevsSupermarket"
 }).then(() => {
-    console.log("MongoDb UP!")
+    console.log("banco conectado meu kaza") 
     console.log(`Listening on http://localhost:${port}`)
     app.listen(port)
 }).catch((error) => {
